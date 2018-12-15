@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>урок html paзметки</title>
+	<meta name="description" content="урок html paзметки">
+	<meta name="keywords" content="html, lessons">
+
+</head>
+<body>
+	<div class="content">
+		<h1>Урок HTML разметки</h1>
+		<p> параграф 1 HTML- это <span class="color_words">язык гипертекста</span> (от англ. HyperText Markup Language). Данный язык применяется для создания веб-страниц.</p>
+	   <p>Параграф 2  Тег (языки разметки) : Тег, те́ги (иногда тэг, англ. tag — именованная метка, читается /tæg/; более правильное название — дескриптор). В SGML (HTML, WML, AmigaGuide, языках семейства XML) — элемент языка разметки гипертекста. </p>
+	</div>
+	<p class="important" id="intro">
+  Индейские племена Манахаттоу и Канарси.
+</p>
+<style type"text/css">
+.content {
+	width: 300px;
+} 
+.color_words {
+
+	color:red;
+}
+
+
+</style>
+</body>
+</html>
